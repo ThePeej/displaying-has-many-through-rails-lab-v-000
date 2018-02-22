@@ -3,4 +3,5 @@
 <% @doctor.appointments.each do |appt| %>
   <%=  appt.appointment_datetime %>
   <%= appt.patient.name %>
+  <br>
 <% end %>
