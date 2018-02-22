@@ -1,5 +1,5 @@
 <h1><%= @patient.name %></h1>
-<h3><%= @patient.age %></h3>
+<h3>Age <%= @patient.age %></h3>
 
 <% @patient.appointments.each do |appt| %>
   <%=  appt.appointment_datetime.strftime("%B %d, %Y at %H:%M") %>
